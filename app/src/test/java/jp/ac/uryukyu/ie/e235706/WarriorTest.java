@@ -11,8 +11,8 @@ class WarriorTest {
         int attack = 100 ;
         Warrior demoWarrior =new Warrior("デモ戦士", 100, attack);
         Enemy slime1 = new Enemy("スライムもどき１",150, 30);
-        Enemy slime2 = new Enemy("スライムもどき2",150, 30);
-        Enemy slime3 = new Enemy("スライムもどき3", 150,30);
+        Enemy slime2 = new Enemy("スライムもどき２",150, 30);
+        Enemy slime3 = new Enemy("スライムもどき３", 150,30);
     
 
         ArrayList<Enemy> slimes = new ArrayList<>();
@@ -26,9 +26,6 @@ class WarriorTest {
             int nowSlimeHp = slime.getHitPoint();
 
             assertEquals(nowSlimeHp,0);
-
         }
-    }
-
-    
+    }  
 }
